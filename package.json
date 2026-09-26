@@ -1,0 +1,15 @@
+{
+  "name": "jharkhandi-production",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check public/app.js && node --check public/language-packs.js && node --check ml.mjs",
+    "seed-demo": "node seed-demo.mjs"
+  },
+  "description": "Jharkhandi SIH26043 collaborative societal challenge platform"
+}

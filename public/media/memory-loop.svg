@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" fill="none">
+<rect width="1400" height="900" rx="48" fill="#F8FAFC"/><text x="110" y="120" fill="#0F172A" font-family="Arial" font-size="34" font-weight="700">Innovation Memory</text><text x="110" y="160" fill="#667085" font-family="Arial" font-size="18">Closed projects become reusable knowledge — including failures.</text>
+<circle cx="700" cy="470" r="265" stroke="#DAE3EC" stroke-width="2"/><circle cx="700" cy="470" r="205" stroke="#E6EDF4" stroke-width="2" stroke-dasharray="8 10"/>
+<g font-family="Arial"><circle cx="700" cy="470" r="110" fill="#0D2B3D"/><text x="635" y="460" fill="white" font-size="28" font-weight="700">Memory</text><text x="613" y="500" fill="#9BC1CF" font-size="16">evidence + lessons</text>
+<g><rect x="590" y="205" width="220" height="92" rx="20" fill="white" stroke="#DDE6EE"/><text x="620" y="245" fill="#0F172A" font-size="19" font-weight="700">Problem</text><text x="620" y="274" fill="#667085" font-size="14">what happened</text></g>
+<g><rect x="965" y="320" width="220" height="92" rx="20" fill="white" stroke="#DDE6EE"/><text x="995" y="360" fill="#0F172A" font-size="19" font-weight="700">Context</text><text x="995" y="389" fill="#667085" font-size="14">where and for whom</text></g>
+<g><rect x="930" y="610" width="220" height="92" rx="20" fill="white" stroke="#DDE6EE"/><text x="960" y="650" fill="#0F172A" font-size="19" font-weight="700">Outcome</text><text x="960" y="679" fill="#667085" font-size="14">verified / partial / failed</text></g>
+<g><rect x="250" y="610" width="220" height="92" rx="20" fill="white" stroke="#DDE6EE"/><text x="280" y="650" fill="#0F172A" font-size="19" font-weight="700">Lesson</text><text x="280" y="679" fill="#667085" font-size="14">what to repeat or avoid</text></g>
+<g><rect x="215" y="320" width="220" height="92" rx="20" fill="white" stroke="#DDE6EE"/><text x="245" y="360" fill="#0F172A" font-size="19" font-weight="700">Solution</text><text x="245" y="389" fill="#667085" font-size="14">what was attempted</text></g></g>
+<path d="M790 250C910 270 980 330 1010 390M1040 410C1080 500 1060 580 1020 625M930 690C830 745 700 760 585 720M470 680C360 620 320 535 330 435M350 350C400 275 500 235 590 230" stroke="#4D7CFE" stroke-width="6" stroke-linecap="round" opacity=".75"/>
+</svg>

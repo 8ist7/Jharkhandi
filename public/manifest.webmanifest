@@ -1,0 +1,26 @@
+{
+  "name": "Jharkhandi – Societal Innovation Platform",
+  "short_name": "Jharkhandi",
+  "description": "Multilingual PWA for evidence-led societal innovation, collaboration, decision intelligence and verified impact.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F3F7F4",
+  "theme_color": "#0E7A52",
+  "icons": [
+    {
+      "src": "/jharkhandi-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/jharkhandi-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "lang": "en"
+}

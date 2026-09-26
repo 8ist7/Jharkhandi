@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: jharkhandi
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: DATA_DIR
+        value: /app/storage
+    disk:
+      name: jharkhandi-storage
+      mountPath: /app/storage
+      sizeGB: 1

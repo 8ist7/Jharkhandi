@@ -1,0 +1,43 @@
+{
+  "sources": [
+    {"name":"Department of Higher & Technical Education, Government of Jharkhand — State Universities","url":"https://www.jharkhand.gov.in/PDirectorate/UniversityDetailList?uv=f7adf0ba18d705092fa0a1e2f2c0bafb"},
+    {"name":"Department of Higher & Technical Education, Government of Jharkhand — Institutes of National Importance","url":"https://www.jharkhand.gov.in/PDirectorate/UniversityDetailList?uv=ae59d99c52e1a1261f7d77a99f6c5e7b"},
+    {"name":"Department of Higher & Technical Education, Government of Jharkhand — Private Universities","url":"https://www.jharkhand.gov.in/PDirectorate/UniversityDetailList?uv=bfd2343910378a1b537c3c8036a5c07e"},
+    {"name":"Jharkhand Chancellor Portal — University Directory","url":"https://universities.jharkhand.gov.in/home/universities/list"}
+  ],
+  "snapshot":"2026-09-11",
+  "note":"Names and institution types are sourced from Government of Jharkhand public directories. Capability tags are explicitly marked as inferred and must be verified by the institution before assignment.",
+  "institutions":[
+    {"name":"Jharkhand University of Technology, Ranchi","type":"State University","district":"Ranchi","inferredCapabilities":["Engineering","Technology","Software Engineering","Civil Engineering"]},
+    {"name":"Binod Bihari Mahto Koyalanchal University, Dhanbad","type":"State University","district":"Dhanbad","inferredCapabilities":["Environmental Science","Computer Science","Management","Education"]},
+    {"name":"Ranchi University, Ranchi","type":"State University","district":"Ranchi","inferredCapabilities":["Science","Social Science","Education","Computer Science"]},
+    {"name":"Kolhan University, Chaibasa","type":"State University","district":"West Singhbhum","inferredCapabilities":["Education","Science","Social Science","Community Research"]},
+    {"name":"Vinoba Bhave University, Hazaribagh","type":"State University","district":"Hazaribagh","inferredCapabilities":["Science","Education","Management","Computer Science"]},
+    {"name":"Sido Kanhu Murmu University, Dumka","type":"State University","district":"Dumka","inferredCapabilities":["Rural Development","Social Science","Education","Community Research"]},
+    {"name":"Nilamber-Pitamber University, Palamu","type":"State University","district":"Palamu","inferredCapabilities":["Education","Science","Rural Development","Social Science"]},
+    {"name":"Dr. Shyama Prasad Mukherjee University, Ranchi","type":"State University","district":"Ranchi","inferredCapabilities":["Science","Computer Science","Management","Education"]},
+    {"name":"Jamshedpur Women's University","type":"State University","district":"East Singhbhum","inferredCapabilities":["Education","Science","Social Science","Community Research"]},
+    {"name":"Jharkhand Raksha Shakti University","type":"State University","district":"Ranchi","inferredCapabilities":["Cyber Security","Forensics","Public Safety","Security Studies"]},
+    {"name":"Birsa Agricultural University, Ranchi","type":"State University","district":"Ranchi","inferredCapabilities":["Agriculture","Agronomy","Rural Development","Water Management"]},
+    {"name":"National University of Study & Research in Law, Ranchi","type":"State University","district":"Ranchi","inferredCapabilities":["Law","Public Policy","Governance","Regulation"]},
+    {"name":"Indian Institute of Management, Ranchi","type":"Institute of National Importance","district":"Ranchi","inferredCapabilities":["Management","Public Policy","Entrepreneurship","Impact Measurement"]},
+    {"name":"Indian Institute of Technology (Indian School of Mines), Dhanbad","type":"Institute of National Importance","district":"Dhanbad","inferredCapabilities":["Engineering","Mining","Environmental Engineering","AI/ML","Energy"]},
+    {"name":"National Institute of Technology, Jamshedpur","type":"Institute of National Importance","district":"East Singhbhum","inferredCapabilities":["Engineering","Civil Engineering","Computer Science","Electrical Engineering"]},
+    {"name":"Indian Institute of Information Technology, Ranchi","type":"Institute of National Importance","district":"Ranchi","inferredCapabilities":["Computer Science","AI/ML","Data Science","Software Engineering"]},
+    {"name":"All India Institute of Medical Sciences, Deoghar","type":"Institute of National Importance","district":"Deoghar","inferredCapabilities":["Healthcare","Public Health","Clinical Research","Community Health"]},
+    {"name":"Amity University Jharkhand","type":"Private University","district":"Ranchi","inferredCapabilities":["Engineering","Management","Computer Science","Social Science"]},
+    {"name":"AISECT University, Jharkhand","type":"Private University","district":"Hazaribagh","inferredCapabilities":["Engineering","Computer Science","Management","Education"]},
+    {"name":"Sarla Birla University","type":"Private University","district":"Ranchi","inferredCapabilities":["Engineering","Management","Computer Science","Commerce"]},
+    {"name":"Y.B.N. University, Ranchi","type":"Private University","district":"Ranchi","inferredCapabilities":["Healthcare","Education","Management","Science"]},
+    {"name":"Arka Jain University, Jamshedpur","type":"Private University","district":"East Singhbhum","inferredCapabilities":["Engineering","Management","Computer Science","Health Sciences"]},
+    {"name":"Usha Martin University, Ranchi","type":"Private University","district":"Ranchi","inferredCapabilities":["Engineering","Management","Agriculture","Computer Science"]},
+    {"name":"Jharkhand Rai University, Ranchi","type":"Private University","district":"Ranchi","inferredCapabilities":["Agriculture","Engineering","Management","Computer Science"]},
+    {"name":"ICFAI University Jharkhand","type":"Private University","district":"Ranchi","inferredCapabilities":["Management","Law","Computer Science","Social Science"]},
+    {"name":"Sai Nath University, Ranchi","type":"Private University","district":"Ranchi","inferredCapabilities":["Engineering","Education","Healthcare","Management"]},
+    {"name":"Capital University, Koderma","type":"Private University","district":"Koderma","inferredCapabilities":["Engineering","Management","Computer Science","Education"]},
+    {"name":"Radha Govind University, Ramgarh","type":"Private University","district":"Ramgarh","inferredCapabilities":["Engineering","Education","Management","Science"]},
+    {"name":"Ramchandra Chandravanshi University, Bishrampur, Palamu","type":"Private University","district":"Palamu","inferredCapabilities":["Healthcare","Education","Management","Science"]},
+    {"name":"Netaji Subhas University, Jamshedpur","type":"Private University","district":"East Singhbhum","inferredCapabilities":["Engineering","Management","Computer Science","Health Sciences"]},
+    {"name":"Srinath University, Jamshedpur","type":"Private University","district":"East Singhbhum","inferredCapabilities":["Engineering","Management","Computer Science","Education"]}
+  ]
+}

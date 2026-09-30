@@ -111,7 +111,36 @@ async function loadState(){
  }catch{ui.backendLive=false}
  applySettings();render()
 }
-function connectEvents(){ try{const es=new EventSource('/api/events'); es.onopen=()=>{ui.backendLive=true;updateStatusOnly()}; es.onmessage=e=>{try{const d=JSON.parse(e.data);if(d.state){state=d.state;state.challenges=(state.challenges||[]).map(ensureIntelligenceRecord);ui.lastSync=d.serverTime;ui.backendLive=true;applySettings();render(false)}}catch{}}; es.onerror=()=>{ui.backendLive=false;updateStatusOnly()} }catch{} }
+function connectEvents(){
+ try{
+  const es=new EventSource('/api/events');
+  es.onopen=()=>{
+   ui.backendLive=true;
+   updateStatusOnly();
+  };
+  es.onmessage=e=>{
+   try{
+    const d=JSON.parse(e.data);
+    if(d.state){
+     state=d.state;
+     state.challenges=(state.challenges||[]).map(ensureIntelligenceRecord);
+     ui.lastSync=d.serverTime;
+     ui.backendLive=true;
+     applySettings();
+     if(session){
+      render(false);
+     }else{
+      updateStatusOnly();
+     }
+    }
+   }catch{}
+  };
+  es.onerror=()=>{
+   ui.backendLive=false;
+   updateStatusOnly();
+  };
+ }catch{}
+}
 const TRANSLATIONS=UI_TRANSLATIONS
 function publicCopy(){const lang=currentLanguage();return PUBLIC_PACKS[lang.pack]||PUBLIC_PACKS.en}
 function tt(text){const lang=currentLanguage(),dict=TRANSLATIONS[lang.pack]||{};return dict[text]||text}

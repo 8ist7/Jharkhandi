@@ -319,7 +319,7 @@ The launcher is included in this repository.
 Open Chrome or another browser and visit:
 
 ```text
-http://localhost:5620/
+http://localhost:5855/
 ```
 
 The application should load from the local server.
@@ -338,7 +338,7 @@ npm start
 Then open:
 
 ```text
-http://localhost:5620/
+http://localhost:5855/
 ```
 
 If the project is being run through the included Windows launcher, use `RUN_JHARKHANDI.bat` instead.
